@@ -1,0 +1,26 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+ #homePage
+ {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 35px;
+ }
+.titoloHome
+{
+	text-align: center;
+    width: 600px;
+	padding: 30px;
+	background-color: lightgreen;
+	margin: auto;
+	border-radius: 50px;
+    border-style:groove;
+    border-bottom-style: double;
+    border-right-style: initial;
+    border-left-style: initial;
+    
+}
