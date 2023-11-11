@@ -1,0 +1,19 @@
+@font-face {
+    font-family: circular;
+    src: url("/resources/circular.ttf") format("truetype");
+}
+body{
+    background-color: #800000;
+}
+
+h1{
+    font-family: circular;
+    color:white;
+    text-shadow: 3px 3px 2px black;
+}
+
+.foto{
+    padding-left: 30px;
+    padding-top: 30px;
+    color: white;
+}
