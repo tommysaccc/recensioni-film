@@ -1,6 +1,6 @@
 @font-face {
     font-family: circular;
-    src: url("/resources/circular.ttf") format("truetype");
+    src: url("circular.ttf") format("truetype");
 }
 body{
     background-color: #800000;
@@ -9,11 +9,38 @@ body{
 h1{
     font-family: circular;
     color:white;
-    text-shadow: 3px 3px 2px black;
+    font-size: 3.3em;
 }
 
 .foto{
     padding-left: 30px;
     padding-top: 30px;
     color: white;
+}
+
+.descriz{
+    padding-left: 30px;
+    padding-top: 30px;
+    color: white;
+}
+
+body{
+    display: flex;
+}
+
+img{
+    max-width: 320px;
+    float: left;
+    margin-right: 25px;
+}
+
+.text-box{
+    color: #FFFFFF;
+}
+
+*{
+    margin: 0px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: circular;
 }
