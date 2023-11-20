@@ -1,26 +1,93 @@
+@font-face 
+{
+    font-family: circular;
+    src: url("circular.ttf") format("truetype");
+}
 body
 {
 	margin: 0;
 	padding: 0;
-	background-color: white;
+	background-color: rgb(235, 190, 190);
+}	
+
+@keyframes slide
+{
+	0% {
+	  transform: translateX(-100%);
+	}
+	100% {
+	  transform: translateX(0);
+	}
 }
 
- #homePage
- {
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 35px;
- }
-.titoloHome
+.testoAnimato 
 {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.scrittaTitolo 
+{
+	animation: slide 2s ease-in-out;
 	text-align: center;
-    width: 600px;
+    width: 1300px;
 	padding: 30px;
-	background-color: lightgreen;
 	margin: auto;
-	border-radius: 50px;
-    border-style:groove;
-    border-bottom-style: double;
-    border-right-style: initial;
-    border-left-style: initial;
-    
+	font-family: circular;
+	font-size: 50px;
+	background: linear-gradient(45deg, rgb(0, 0, 0), rgb(212, 109, 109));
+    -webkit-background-clip: text;
+    color: transparent;
+	border-color: black;
+}
+
+.sottoTitolo
+{
+	color: black;
+    animation: slide 2s ease-in-out;
+	text-align: center;
+    width: 800px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: auto;
+	font-family: circular;
+	font-size: 25px;
+
+}
+
+.info
+{
+	text-align: right;
+	
+}
+
+#infoPoint
+{
+	padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+	background-color: transparent;
+}
+
+.nascondi 
+{
+    display: none;
+}
+
+.recensioneTopboy
+{
+	padding: 10px;
+    font-size: 15px;
+	margin: auto;
+	font-family: circular;
+}
+
+.fotoPopcorn
+{
+	/* <div class="gifPopcorn">
+        <img src="fortnite-frozen-nog-ops.gif" alt="La mia GIF">
+    </div>
+	*/
+	background: transparent;
+	align-items: left;
 }
