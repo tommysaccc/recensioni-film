@@ -104,6 +104,13 @@ body
 	font-family: circular;
 }
 
+.recensioneNemo{
+	padding: 10px;
+    font-size: 25px;
+	margin: auto;
+	font-family: circular;
+}
+
 a:link 
 {
 	color: #222222;
