@@ -96,6 +96,7 @@ body
     display: none;
 }
 
+
 .recensioneTopboy
 {
 	padding: 10px;
@@ -109,6 +110,20 @@ body
     font-size: 25px;
 	margin: auto;
 	font-family: circular;
+}
+
+.contenitoreImmmagini 
+{
+	display: flex;
+	justify-content: space-between; 
+	flex-direction: row;
+	align-items: center;
+}
+
+.contenitoreImmmagini img 
+{
+	max-width: 100%; 
+	margin: auto; 
 }
 
 a:link 

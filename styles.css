@@ -10,7 +10,8 @@ body{
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
+    display: flex;
+    padding: 0;
 }
 
 p{
@@ -43,9 +44,6 @@ h2{
     color: white;
 }
 
-body{
-    display: flex;
-}
 
 img{
     max-width: 320px;
@@ -72,4 +70,44 @@ img{
 
 .trailer{
     float:right;
+}
+
+.tastoHome
+{
+    font-family: circular;
+    font-size: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+a:link 
+{
+	color: #222222;
+	background-color: transparent;
+	text-decoration: none;
+}
+  
+a:visited
+{
+	color: #fffdd1;
+	background-color: transparent;
+	text-decoration: none;
+}
+  
+a:hover 
+{
+	/*colore passando sopra col cursore*/
+	color: #222222;
+	background-color: transparent;
+	text-decoration: underline;
+}
+  
+a:active 
+{
+	color: blue;
+	background-color: transparent;
+	text-decoration: underline;
 }
