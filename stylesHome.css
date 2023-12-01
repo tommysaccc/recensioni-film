@@ -3,6 +3,11 @@
     font-family: circular;
     src: url("circular.ttf") format("truetype");
 }
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
 body
 {
 	margin: 0;
@@ -74,7 +79,8 @@ body
 .info
 {
 	text-align: right;
-	color: #990000;
+	color: white;
+	font-family: circular
 }
 
 #infoPoint
@@ -145,6 +151,38 @@ body
 	text-align: center;
 }
 
+.recensioneSplit{
+	padding: 10px;
+    font-size: 25px;
+	margin: auto;
+	font-family: circular;
+	text-align: center;
+}
+
+.recensionePercy{
+	padding: 10px;
+    font-size: 25px;
+	margin: auto;
+	font-family: circular;
+	text-align: center;
+}
+
+.recensioneTVD{
+	padding: 10px;
+    font-size: 25px;
+	margin: auto;
+	font-family: circular;
+	text-align: center;
+}
+
+.recensioneLucifer{
+	padding: 10px;
+    font-size: 25px;
+	margin: auto;
+	font-family: circular;
+	text-align: center;
+}
+
 .contenitoreImmmagini 
 {
 	display: flex;
@@ -200,4 +238,16 @@ a:active
 	color: blue;
 	background-color: transparent;
 	text-decoration: underline;
+}
+
+p{
+	text-align: center;
+	font-size: 1.2em;
+	font-family: circular;
+	color:white;
+}
+footer{
+	padding: 35px 35px;
+	margin-top: 20px;
+	background-color: rgba(45,0,0,1);
 }
